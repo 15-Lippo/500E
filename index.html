@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>500 Crypto - La Fiat 500 d'epoca</title>
+    <title data-i18n="title">500 Crypto - La Fiat 500 d'epoca</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         /* Stili aggiuntivi per migliorare la grafica */
         body {
-            font-family: 'Arial', sans-serif; /* Cambia font */
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f7f7f7; /* Sfondo chiaro */
+            background-color: #f7f7f7;
         }
         header {
-           background: #2980b9;
+            background: #2980b9;
             color: #fff;
             padding: 30px 0;
             text-align: center;
@@ -23,7 +23,7 @@
         }
         header h1 {
             margin: 0;
-            font-size: 3em; /* Testo piu' grande */
+            font-size: 3em;
         }
         header p {
             margin: 10px 0 0;
@@ -86,35 +86,34 @@
             padding: 12px;
             border: 1px solid #bdc3c7;
             border-radius: 5px;
-             font-size: 1em;
+            font-size: 1em;
         }
         form button {
             padding: 12px 20px;
-            background: #2980b9; /* Cambia il colore del pulsante */
+            background: #2980b9;
             color: #fff;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-             font-size: 1.1em;
-             transition: background-color 0.3s ease;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
         }
         form button:hover {
-            background: #3498db; /* Cambia colore on hover */
+            background: #3498db;
         }
         footer {
             text-align: center;
             padding: 20px;
-           background: #34495e; /* Cambia colore del footer */
+            background: #34495e;
             color: #fff;
             margin-top: 30px;
         }
-
         /* Responsive Design */
         @media (max-width: 768px) {
             header h1 {
                 font-size: 2.2em;
             }
-             header p {
+            header p {
                 font-size: 1.1em;
             }
             section {
@@ -130,65 +129,88 @@
             .chart-container iframe {
                 height: 400px;
             }
-             form input, form textarea{
+            form input, form textarea{
                 font-size: 0.9em;
             }
-           form button {
-             font-size: 1em;
+            form button {
+            font-size: 1em;
             }
-
         }
-
          @media (max-width: 480px) {
-              header h1 {
+            header h1 {
                 font-size: 1.8em;
             }
-             header p {
+            header p {
                 font-size: 1em;
             }
-             section {
+            section {
                 padding: 15px;
                 margin: 10px auto;
             }
             h2 {
                 font-size: 1.5em;
             }
-             .chart-container iframe {
+            .chart-container iframe {
                 height: 300px;
             }
         }
+          .language-switcher {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        .language-switcher button {
+             background: #f0f0f0;
+             border: 1px solid #ddd;
+            padding: 8px 12px;
+            margin: 0 5px;
+             border-radius: 4px;
+             cursor: pointer;
+             transition: background-color 0.3s ease;
+        }
+         .language-switcher button:hover, .language-switcher button.active{
+            background: #ddd;
+        }
+
     </style>
 </head>
 <body>
+  <div class="language-switcher">
+    <button data-lang="it" class="active">Italiano</button>
+    <button data-lang="en">English</button>
+      <button data-lang="zh">中文</button>
+    <button data-lang="fr">Français</button>
+</div>
+
     <header>
-        <h1>500 Crypto</h1>
-        <p>La criptovaluta che celebra il mito della Fiat 500 d'epoca</p>
+        <h1 data-i18n="header_title">500 Crypto</h1>
+        <p data-i18n="header_subtitle">La criptovaluta che celebra il mito della Fiat 500 d'epoca</p>
     </header>
 
     <section id="about">
-        <h2>Chi Siamo</h2>
-        <p>Benvenuti nel mondo di 500 Crypto, la criptovaluta che celebra il mito della Fiat 500 d'epoca. Unisciti a noi per rivivere la magia di questa iconica automobile.</p>
-        <p><strong>Missione:</strong> Siamo appassionati dell'iconica Fiat 500 d'epoca e crediamo che la sua storia e il suo design unico meritino una celebrazione nel mondo delle criptovalute. Il nostro obiettivo è creare una community di appassionati, unendo il fascino del passato con le innovazioni del futuro.</p>
+        <h2 data-i18n="about_title">Chi Siamo</h2>
+        <p data-i18n="about_text">Benvenuti nel mondo di 500 Crypto, la criptovaluta che celebra il mito della Fiat 500 d'epoca. Unisciti a noi per rivivere la magia di questa iconica automobile.</p>
+        <p><strong><span data-i18n="about_mission_label">Missione:</span></strong> <span data-i18n="about_mission_text">Siamo appassionati dell'iconica Fiat 500 d'epoca e crediamo che la sua storia e il suo design unico meritino una celebrazione nel mondo delle criptovalute. Il nostro obiettivo è creare una community di appassionati, unendo il fascino del passato con le innovazioni del futuro.</span></p>
     </section>
 
       <section id="what-is-500-crypto">
-        <h2>Cos'è 500 Crypto?</h2>
-        <p>500 Crypto è una criptovaluta basata sulla blockchain di Solana. È stata creata per celebrare la Fiat 500 d'epoca, una delle auto più iconiche e amate di tutti i tempi. Il token mira a creare una community di appassionati di auto d'epoca e di criptovalute.</p>
-        <p><strong>Punti Chiave:</strong></p>
+        <h2 data-i18n="what_is_title">Cos'è 500 Crypto?</h2>
+         <p data-i18n="what_is_text_1">500 Crypto è una criptovaluta basata sulla blockchain di Solana. È stata creata per celebrare la Fiat 500 d'epoca, una delle auto più iconiche e amate di tutti i tempi. Il token mira a creare una community di appassionati di auto d'epoca e di criptovalute.</p>
+        <p><strong data-i18n="what_is_keypoints_label">Punti Chiave:</strong></p>
         <ul>
-             <li><strong>Community:</strong> Unisce appassionati di auto d'epoca e criptovalute.</li>
-             <li><strong>Decentralizzata:</strong> Opera sulla blockchain di Solana.</li>
-             <li><strong>Obiettivo:</strong> Celebra la Fiat 500 d'epoca.</li>
+             <li data-i18n="what_is_keypoint_1"><strong>Community:</strong> Unisce appassionati di auto d'epoca e criptovalute.</li>
+             <li data-i18n="what_is_keypoint_2"><strong>Decentralizzata:</strong> Opera sulla blockchain di Solana.</li>
+             <li data-i18n="what_is_keypoint_3"><strong>Obiettivo:</strong> Celebra la Fiat 500 d'epoca.</li>
         </ul>
     </section>
         <section id="roadmap">
-            <h2>Roadmap</h2>
-            <p><strong>Fase 1:</strong> Lancio del token e creazione della community. (Completa)</p>
-            <p><strong>Fase 2:</strong> Sviluppo di partnership con eventi dedicati ad auto d'epoca. (In corso)</p>
-             <p><strong>Fase 3:</strong> Creazione di una piattaforma per lo scambio di asset legati alla Fiat 500 (prossimamente)</p>
+            <h2 data-i18n="roadmap_title">Roadmap</h2>
+            <p><strong data-i18n="roadmap_phase_1_label">Fase 1:</strong> <span data-i18n="roadmap_phase_1_text">Lancio del token e creazione della community. (Completa)</span></p>
+            <p><strong data-i18n="roadmap_phase_2_label">Fase 2:</strong> <span data-i18n="roadmap_phase_2_text">Sviluppo di partnership con eventi dedicati ad auto d'epoca. (In corso)</span></p>
+             <p><strong data-i18n="roadmap_phase_3_label">Fase 3:</strong> <span data-i18n="roadmap_phase_3_text">Creazione di una piattaforma per lo scambio di asset legati alla Fiat 500 (prossimamente)</span></p>
         </section>
     <section id="gallery">
-        <h2>Galleria</h2>
+        <h2 data-i18n="gallery_title">Galleria</h2>
          <div class="image-grid">
              <img src="https://raw.githubusercontent.com/15-Lippo/500E/refs/heads/master/logo.png.jpg" alt="Fiat 500 d'epoca">
             <img src="https://raw.githubusercontent.com/15-Lippo/500E/refs/heads/master/Screenshot_2025-02-02-14-08-16-39_3aea4af51f236e4932235fdada7d1643.jpg" alt="Fiat 500 d'epoca">
@@ -197,40 +219,36 @@
               <img src="https://images.unsplash.com/photo-1595189945445-f34a15159864?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fiat 500 d'epoca">
         </div>
     </section>
-
-    <!-- Sezione per il grafico di mevx.io -->
     <section id="mevx-chart">
-        <h2>Grafico della Criptovaluta su Solana</h2>
+        <h2 data-i18n="chart_title">Grafico della Criptovaluta su Solana</h2>
         <div class="chart-container">
             <iframe src="https://mevx.io/solana/DdcrJRdNLB47bGdLZrcxVNfGAmvUbVXZKgY81Afcpump" title="Grafico mevx.io"></iframe>
         </div>
     </section>
-
-    <!-- Sezione per il link a pump.fun -->
     <section id="pump-widget">
-        <h2>Statistiche della Criptovaluta</h2>
-        <p>
+         <h2 data-i18n="stats_title">Statistiche della Criptovaluta</h2>
+        <p data-i18n="stats_text">
             Per visualizzare le statistiche della criptovaluta, visita la pagina ufficiale su
-            <a href="https://pump.fun/coin/DdcrJRdNLB47bGdLZrcxVNfGAmvUbVXZKgY81Afcpump" target="_blank" rel="noopener noreferrer">pump.fun</a>.
+            <a href="https://pump.fun/coin/DdcrJRdNLB47bGdLZrcxVNfGAmvUbVXZKgY81Afcpump" target="_blank" rel="noopener noreferrer" data-i18n="stats_link">pump.fun</a>.
         </p>
     </section>
 
     <section id="contact">
-        <h2>Contattaci</h2>
+        <h2 data-i18n="contact_title">Contattaci</h2>
         <form id="contact-form">
-            <label for="name">Nome:</label>
+            <label for="name" data-i18n="contact_name_label">Nome:</label>
             <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
+            <label for="email" data-i18n="contact_email_label">Email:</label>
             <input type="email" id="email" name="email" required>
-            <label for="message">Messaggio:</label>
+            <label for="message" data-i18n="contact_message_label">Messaggio:</label>
             <textarea id="message" name="message" required></textarea>
-            <button type="submit">Invia</button>
+            <button type="submit" data-i18n="contact_send_button">Invia</button>
         </form>
     </section>
 
     <footer>
-        <p>© 2025 500 Crypto. Tutti i diritti riservati.</p>
+        <p>© 2025 500 Crypto. <span data-i18n="footer_rights">Tutti i diritti riservati.</span></p>
     </footer>
-    <script src="script.js"></script>
+     <script src="script.js"></script>
 </body>
-</html>
+                  </html>
