@@ -75,7 +75,11 @@ form button {
 form button:hover {
     background-color: #e6b800;
 }
-
+.chart-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
 footer {
     text-align: center;
     padding: 10px;
