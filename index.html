@@ -268,6 +268,53 @@
                     <li data-i18n="whitepaper_tokenomics_3"><strong>Supply Totale:</strong> 500.000.000 token</li>
                     <li data-i18n="whitepaper_tokenomics_4"><strong>Autorità Mint:</strong> DdcrJRdNLB47bGdLZrcxVNfGAmvUbVXZKgY81Afcpump</li>
                    <li data-i18n="whitepaper_tokenomics_5"><strong>Decimals:</strong> 6</li>
+                    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                    <section id="token-distribution">
+    <h2 data-i18n="token_distribution_title">Distribuzione del Token</h2>
+    <div class="chart-container">
+        <canvas id="tokenDistributionChart"></canvas>
+    </div>
+</section>
+
+                    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const ctx = document.getElementById('tokenDistributionChart').getContext('2d');
+        const tokenDistributionChart = new Chart(ctx, {
+            type: 'pie', // Tipo di grafico (a torta)
+            data: {
+                labels: ['Vendita Pubblica', 'Community', 'Sviluppo', 'Partnership', 'Team'],
+                datasets: [{
+                    label: 'Distribuzione del Token',
+                    data: [50, 20, 15, 10, 5], // Percentuali di distribuzione
+                    backgroundColor: [
+                        '#FF6384', // Colore per Vendita Pubblica
+                        '#36A2EB', // Colore per Community
+                        '#FFCE56', // Colore per Sviluppo
+                        '#4BC0C0', // Colore per Partnership
+                        '#9966FF'  // Colore per Team
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom', // Posizione della legenda
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function (context) {
+                                return `${context.label}: ${context.raw}%`;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    });
+                    </script>
+                    
                      <li data-i18n="whitepaper_tokenomics_6"><strong>Distribuzione:</strong> 50% vendita pubblica, 20% community, 15% sviluppo, 10% partnership, 5% team.</li>
                 </ul>
 
