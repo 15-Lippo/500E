@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const translations = {
-       "it": {
+        "it": {
             "title": "500 Crypto - La Fiat 500 d'epoca",
             "header_title": "500 Crypto",
             "header_subtitle": "La criptovaluta che celebra il mito della Fiat 500 d'epoca",
@@ -31,25 +31,28 @@ document.addEventListener('DOMContentLoaded', function() {
             "contact_email_label": "Email:",
             "contact_message_label": "Messaggio:",
             "contact_send_button": "Invia",
-             "footer_rights": "Tutti i diritti riservati.",
-           "whitepaper_title": "White Paper",
+            "footer_rights": "Tutti i diritti riservati.",
+            "whitepaper_title": "White Paper",
             "whitepaper_intro_title": "Introduzione",
             "whitepaper_intro_text": "500 Crypto è una criptovaluta basata sulla blockchain di Solana, creata per celebrare l'iconica Fiat 500 d'epoca. Questo token unisce il fascino del passato con le innovazioni del futuro.",
             "whitepaper_vision_title": "Visione e Missione",
             "whitepaper_vision_text": "La nostra visione è creare una criptovaluta che rappresenti l'eredità culturale e il design unico della Fiat 500. La missione è riunire appassionati di auto d'epoca e di criptovalute in una community globale.",
             "whitepaper_technology_title": "Tecnologia",
-            "whitepaper_technology_text": "500 Crypto è costruito sulla blockchain di Solana, scelta per la sua scalabilità, velocità e bassi costi di transazione. Utilizziamo lo standard SPL (Solana Program Library) e l'algoritmo di consenso Proof of History (PoH).",
-            "whitepaper_tokenomics_title": "Tokenomics",
+           "whitepaper_technology_text": "500 Crypto è un token SPL (Solana Program Library) creato sulla blockchain di Solana. Questa blockchain è stata scelta per la sua alta velocità di transazione, i bassi costi e la scalabilità.",
+             "whitepaper_tokenomics_title": "Tokenomics",
             "whitepaper_tokenomics_1": "<strong>Nome del Token:</strong> 500 Crypto (500C)",
-           "whitepaper_tokenomics_2": "<strong>Supply Totale:</strong> 500.000.000 token",
-            "whitepaper_tokenomics_3": "<strong>Distribuzione:</strong> 50% vendita pubblica, 20% community, 15% sviluppo, 10% partnership, 5% team.",
+           "whitepaper_tokenomics_2": "<strong>Indirizzo Token:</strong> <a href=\"https://solscan.io/token/DdcrJRdNLB47bGdLZrcxVNfGAmvUbVXZKgY81Afcpump\" target=\"_blank\" rel=\"noopener noreferrer\">DdcrJRdNLB47bGdLZrcxVNfGAmvUbVXZKgY81Afcpump</a>",
+            "whitepaper_tokenomics_3": "<strong>Supply Totale:</strong> 500.000.000 token",
+           "whitepaper_tokenomics_4": "<strong>Autorità Mint:</strong> DdcrJRdNLB47bGdLZrcxVNfGAmvUbVXZKgY81Afcpump",
+            "whitepaper_tokenomics_5": "<strong>Decimals:</strong> 6",
+            "whitepaper_tokenomics_6": "<strong>Distribuzione:</strong> 50% vendita pubblica, 20% community, 15% sviluppo, 10% partnership, 5% team.",
             "whitepaper_utility_title": "Utility del Token",
-             "whitepaper_utility_text": "Il token 500C offre accesso a eventi esclusivi, acquisto di NFT, governance della community e sconti presso partner selezionati.",
+            "whitepaper_utility_text": "Il token 500C offre accesso a eventi esclusivi, acquisto di NFT, governance della community e sconti presso partner selezionati. Inoltre, il token mira a diventare il metodo di pagamento preferito per beni e servizi nel settore delle auto d'epoca.",
             "whitepaper_roadmap_title": "Roadmap",
             "whitepaper_roadmap_1": "<strong>Fase 1:</strong> Lancio del token e creazione della community.",
             "whitepaper_roadmap_2": "<strong>Fase 2:</strong> Partnership con eventi di auto d'epoca.",
             "whitepaper_roadmap_3": "<strong>Fase 3:</strong> Lancio di un marketplace per NFT e memorabilia.",
-            "whitepaper_conclusion_title": "Conclusione",
+             "whitepaper_conclusion_title": "Conclusione",
             "whitepaper_conclusion_text": "500 Crypto è un tributo alla Fiat 500, un'auto che ha segnato la storia dell'automobilismo. Unisciti a noi per celebrare questo mito e far parte di una community innovativa."
         },
         "en": {
@@ -84,27 +87,30 @@ document.addEventListener('DOMContentLoaded', function() {
             "contact_message_label": "Message:",
             "contact_send_button": "Send",
             "footer_rights": "All rights reserved.",
-             "whitepaper_title": "White Paper",
+           "whitepaper_title": "White Paper",
             "whitepaper_intro_title": "Introduction",
             "whitepaper_intro_text": "500 Crypto is a cryptocurrency based on the Solana blockchain, created to celebrate the iconic vintage Fiat 500. This token combines the charm of the past with the innovations of the future.",
             "whitepaper_vision_title": "Vision and Mission",
             "whitepaper_vision_text": "Our vision is to create a cryptocurrency that represents the cultural heritage and unique design of the Fiat 500. The mission is to bring together vintage car and cryptocurrency enthusiasts in a global community.",
             "whitepaper_technology_title": "Technology",
-           "whitepaper_technology_text": "500 Crypto is built on the Solana blockchain, chosen for its scalability, speed, and low transaction costs. We use the SPL (Solana Program Library) standard and the Proof of History (PoH) consensus algorithm.",
+           "whitepaper_technology_text": "500 Crypto is an SPL (Solana Program Library) token created on the Solana blockchain. This blockchain was chosen for its high transaction speed, low costs, and scalability.",
            "whitepaper_tokenomics_title": "Tokenomics",
             "whitepaper_tokenomics_1": "<strong>Token Name:</strong> 500 Crypto (500C)",
-             "whitepaper_tokenomics_2": "<strong>Total Supply:</strong> 500,000,000 tokens",
-            "whitepaper_tokenomics_3": "<strong>Distribution:</strong> 50% public sale, 20% community, 15% development, 10% partnerships, 5% team.",
+             "whitepaper_tokenomics_2": "<strong>Token Address:</strong> <a href=\"https://solscan.io/token/DdcrJRdNLB47bGdLZrcxVNfGAmvUbVXZKgY81Afcpump\" target=\"_blank\" rel=\"noopener noreferrer\">DdcrJRdNLB47bGdLZrcxVNfGAmvUbVXZKgY81Afcpump</a>",
+            "whitepaper_tokenomics_3": "<strong>Total Supply:</strong> 500,000,000 tokens",
+            "whitepaper_tokenomics_4": "<strong>Mint Authority:</strong> DdcrJRdNLB47bGdLZrcxVNfGAmvUbVXZKgY81Afcpump",
+             "whitepaper_tokenomics_5": "<strong>Decimals:</strong> 6",
+            "whitepaper_tokenomics_6": "<strong>Distribution:</strong> 50% public sale, 20% community, 15% development, 10% partnerships, 5% team.",
             "whitepaper_utility_title": "Token Utility",
-           "whitepaper_utility_text": "The 500C token offers access to exclusive events, purchase of NFTs, community governance, and discounts at selected partners.",
-           "whitepaper_roadmap_title": "Roadmap",
+            "whitepaper_utility_text": "The 500C token offers access to exclusive events, purchase of NFTs, community governance, and discounts at selected partners. Additionally, the token aims to become the preferred payment method for goods and services in the vintage car sector.",
+             "whitepaper_roadmap_title": "Roadmap",
             "whitepaper_roadmap_1": "<strong>Phase 1:</strong> Launch of the token and creation of the community.",
             "whitepaper_roadmap_2": "<strong>Phase 2:</strong> Partnerships with vintage car events.",
-            "whitepaper_roadmap_3": "<strong>Phase 3:</strong> Launch of a marketplace for NFTs and memorabilia.",
-           "whitepaper_conclusion_title": "Conclusion",
+           "whitepaper_roadmap_3": "<strong>Phase 3:</strong> Launch of a marketplace for NFTs and memorabilia.",
+            "whitepaper_conclusion_title": "Conclusion",
             "whitepaper_conclusion_text": "500 Crypto is a tribute to the Fiat 500, a car that has marked the history of motoring. Join us to celebrate this myth and be part of an innovative community."
         },
-           "zh": {
+         "zh": {
             "title": "500 加密货币 - 复古菲亚特 500",
              "header_title": "500 加密货币",
             "header_subtitle": "庆祝复古菲亚特 500 的加密货币",
@@ -145,10 +151,13 @@ document.addEventListener('DOMContentLoaded', function() {
            "whitepaper_technology_text": "500 Crypto 构建在 Solana 区块链之上，因其可扩展性、速度和低交易成本而选择。我们使用 SPL（Solana 程序库）标准和历史证明（PoH）共识算法。",
            "whitepaper_tokenomics_title": "代币经济学",
             "whitepaper_tokenomics_1": "<strong>代币名称：</strong> 500 加密货币 (500C)",
-            "whitepaper_tokenomics_2": "<strong>总供应量：</strong> 500,000,000 个代币",
-            "whitepaper_tokenomics_3": "<strong>分配：</strong> 50% 公开发售，20% 社区，15% 开发，10% 合作伙伴关系，5% 团队。",
+            "whitepaper_tokenomics_2": "<strong>代币地址:</strong> <a href=\"https://solscan.io/token/DdcrJRdNLB47bGdLZrcxVNfGAmvUbVXZKgY81Afcpump\" target=\"_blank\" rel=\"noopener noreferrer\">DdcrJRdNLB47bGdLZrcxVNfGAmvUbVXZKgY81Afcpump</a>",
+            "whitepaper_tokenomics_3": "<strong>总供应量：</strong> 500,000,000 个代币",
+           "whitepaper_tokenomics_4": "<strong>铸币权限:</strong> DdcrJRdNLB47bGdLZrcxVNfGAmvUbVXZKgY81Afcpump",
+           "whitepaper_tokenomics_5": "<strong>小数位:</strong> 6",
+           "whitepaper_tokenomics_6": "<strong>分配：</strong> 50% 公开发售，20% 社区，15% 开发，10% 合作伙伴关系，5% 团队。",
             "whitepaper_utility_title": "代币实用性",
-            "whitepaper_utility_text": "500C 代币提供对独家活动的访问权限、购买 NFT、社区治理以及在选定合作伙伴处的折扣。",
+            "whitepaper_utility_text": "500C 代币提供对独家活动的访问权限、购买 NFT、社区治理以及在选定合作伙伴处的折扣。此外，该代币旨在成为复古汽车行业商品和服务的首选支付方式。",
              "whitepaper_roadmap_title": "路线图",
             "whitepaper_roadmap_1": "<strong>第一阶段：</strong>代币的推出和社区的创建。",
             "whitepaper_roadmap_2": "<strong>第二阶段：</strong>与复古汽车活动建立合作伙伴关系。",
@@ -195,58 +204,19 @@ document.addEventListener('DOMContentLoaded', function() {
              "whitepaper_vision_title": "Vision et mission",
            "whitepaper_vision_text": "Notre vision est de créer une crypto-monnaie qui représente l'héritage culturel et le design unique de la Fiat 500. La mission est de rassembler les passionnés de voitures d'époque et de crypto-monnaies dans une communauté mondiale.",
             "whitepaper_technology_title": "Technologie",
-            "whitepaper_technology_text": "500 Crypto est construite sur la blockchain Solana, choisie pour son évolutivité, sa rapidité et ses faibles coûts de transaction. Nous utilisons la norme SPL (Solana Program Library) et l'algorithme de consensus Proof of History (PoH).",
+            "whitepaper_technology_text": "500 Crypto est un jeton SPL (Solana Program Library) créé sur la blockchain de Solana. Cette blockchain a été choisie pour sa vitesse de transaction élevée, ses faibles coûts et son évolutivité.",
              "whitepaper_tokenomics_title": "Tokenomics",
             "whitepaper_tokenomics_1": "<strong>Nom du jeton :</strong> 500 Crypto (500C)",
-            "whitepaper_tokenomics_2": "<strong>Offre totale :</strong> 500 000 000 jetons",
-            "whitepaper_tokenomics_3": "<strong>Distribution :</strong> 50 % vente publique, 20 % communauté, 15 % développement, 10 % partenariats, 5 % équipe.",
+           "whitepaper_tokenomics_2": "<strong>Adresse du jeton :</strong> <a href=\"https://solscan.io/token/DdcrJRdNLB47bGdLZrcxVNfGAmvUbVXZKgY81Afcpump\" target=\"_blank\" rel=\"noopener noreferrer\">DdcrJRdNLB47bGdLZrcxVNfGAmvUbVXZKgY81Afcpump</a>",
+            "whitepaper_tokenomics_3": "<strong>Offre totale :</strong> 500 000 000 jetons",
+              "whitepaper_tokenomics_4": "<strong>Autorité de frappe :</strong> DdcrJRdNLB47bGdLZrcxVNfGAmvUbVXZKgY81Afcpump",
+            "whitepaper_tokenomics_5": "<strong>Décimales :</strong> 6",
+            "whitepaper_tokenomics_6": "<strong>Distribution :</strong> 50 % vente publique, 20 % communauté, 15 % développement, 10 % partenariats, 5 % équipe.",
             "whitepaper_utility_title": "Utilité du jeton",
-             "whitepaper_utility_text": "Le jeton 500C offre un accès à des événements exclusifs, l'achat de NFT, la gouvernance de la communauté et des réductions chez des partenaires sélectionnés.",
+             "whitepaper_utility_text": "Le jeton 500C offre un accès à des événements exclusifs, l'achat de NFT, la gouvernance de la communauté et des réductions chez des partenaires sélectionnés. De plus, le jeton vise à devenir le mode de paiement préféré pour les biens et services du secteur des voitures d'époque.",
            "whitepaper_roadmap_title": "Feuille de route",
             "whitepaper_roadmap_1": "<strong>Phase 1 :</strong> Lancement du jeton et création de la communauté.",
             "whitepaper_roadmap_2": "<strong>Phase 2 :</strong> Partenariats avec des événements de voitures d'époque.",
             "whitepaper_roadmap_3": "<strong>Phase 3 :</strong> Lancement d'une place de marché pour les NFT et les souvenirs.",
              "whitepaper_conclusion_title": "Conclusion",
-            "whitepaper_conclusion_text": "500 Crypto est un hommage à la Fiat 500, une voiture qui a marqué l'histoire de l'automobile. Rejoignez-nous pour célébrer ce mythe et faire partie d'une communauté innovante."
-
-        }
-    };
-
-    const languageSwitcher = document.querySelector('.language-switcher');
-    const langButtons = languageSwitcher.querySelectorAll('button');
-
-    function setLanguage(lang) {
-        document.querySelectorAll('[data-i18n]').forEach(element => {
-            const key = element.getAttribute('data-i18n');
-            if (translations[lang] && translations[lang][key]) {
-                 element.innerHTML = translations[lang][key];
-            }
-        });
-    }
-
-    function setActiveButton(selectedButton){
-        langButtons.forEach(button => {
-            button.classList.remove('active');
-        });
-        selectedButton.classList.add('active');
-
-    }
-
-    langButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            const lang = this.getAttribute('data-lang');
-            setLanguage(lang);
-            setActiveButton(this);
-        });
-    });
-
-      // Set initial language based on browser or a default (e.g., 'it')
-      const initialLang = localStorage.getItem('language') || 'it';
-      setLanguage(initialLang);
-    langButtons.forEach(button => {
-       if(button.getAttribute('data-lang') === initialLang){
-           setActiveButton(button);
-       }
-    })
-
-});
+            "whitepaper_conclusion_text": "500 Crypto est un hommage à la Fiat 500, une voiture qui a marqué l'histoire de l'aut
