@@ -1,6 +1,7 @@
-document.addEventListener('DOMContentLoaded', function() {
+ document.addEventListener('DOMContentLoaded', function() {
     const translations = {
-        "it": {
+        // Your translations here (as provided in the original question)
+          "it": {
             "title": "500 Crypto - La Fiat 500 d'epoca",
             "header_title": "500 Crypto",
             "header_subtitle": "La criptovaluta che celebra il mito della Fiat 500 d'epoca",
@@ -219,51 +220,4 @@ document.addEventListener('DOMContentLoaded', function() {
             "whitepaper_roadmap_2": "<strong>Phase 2 :</strong> Partenariats avec des événements de voitures d'époque.",
             "whitepaper_roadmap_3": "<strong>Phase 3 :</strong> Lancement d'une place de marché pour les NFT et les souvenirs.",
              "whitepaper_conclusion_title": "Conclusion",
-            "whitepaper_conclusion_text": "500 Crypto est un hommage à la Fiat 500, une voiture qui a marqué l'histoire de l'automobile. Rejoignez-nous pour célébrer ce mythe et faire partie d'une communauté innovante."
-        }
-    };
-
-    const languageSwitcher = document.querySelector('.language-switcher');
-    const langButtons = languageSwitcher.querySelectorAll('button');
-
-    function setLanguage(lang) {
-        document.querySelectorAll('[data-i18n]').forEach(element => {
-            const key = element.getAttribute('data-i18n');
-             if (translations[lang] && translations[lang][key]) {
-                if (element.tagName === 'A') {
-                    element.href = translations[lang][key];
-                  } else {
-                    element.innerHTML = translations[lang][key];
-                  }
-            }
-
-        });
-    }
-
-    function setActiveButton(selectedButton){
-        langButtons.forEach(button => {
-            button.classList.remove('active');
-        });
-        selectedButton.classList.add('active');
-
-    }
-
-    langButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            const lang = this.getAttribute('data-lang');
-            setLanguage(lang);
-            setActiveButton(this);
-              localStorage.setItem('language', lang);
-        });
-    });
-
-      // Set initial language based on browser or a default (e.g., 'it')
-      const initialLang = localStorage.getItem('language') || 'it';
-      setLanguage(initialLang);
-       langButtons.forEach(button => {
-        if(button.getAttribute('data-lang') === initialLang){
-            setActiveButton(button);
-        }
-    });
-
-});
+            "whitepaper_conclusion_text": "500 Crypt
