@@ -219,4 +219,56 @@ document.addEventListener('DOMContentLoaded', function() {
             "whitepaper_roadmap_2": "<strong>Phase 2 :</strong> Partenariats avec des événements de voitures d'époque.",
             "whitepaper_roadmap_3": "<strong>Phase 3 :</strong> Lancement d'une place de marché pour les NFT et les souvenirs.",
              "whitepaper_conclusion_title": "Conclusion",
-            "whitepaper_conclusion_text": "500 Crypto est un hommage à la Fiat 500, une voiture qui a marqué l'histoire de l'aut
+            "whitepaper_conclusion_text": "500 Crypto est un hommage à la Fiat 500, une voiture qui a marqué l'histoire de l'automobile. Rejoignez-nous pour célébrer ce mythe et faire partie d'une communauté innovante."
+        }
+    };
+
+    const languageButtons = document.querySelectorAll('[data-lang]');
+
+    function setLanguage(lang) {
+        const currentTranslations = translations[lang];
+        if (!currentTranslations) {
+            console.error('Translation not found for language:', lang);
+            return; // Ferma la funzione se non c'è traduzione per la lingua selezionata
+        }
+
+        document.querySelectorAll('[data-i18n]').forEach(element => {
+            const key = element.getAttribute('data-i18n');
+            if (currentTranslations[key]) {
+              if(element.tagName === 'INPUT' || element.tagName === 'TEXTAREA'){
+                  element.setAttribute('placeholder', currentTranslations[key]);
+              }
+              else if (element.tagName === 'A') {
+                 element.textContent = currentTranslations[key];
+               }
+              else{
+                 element.innerHTML = currentTranslations[key];
+               }
+            } else {
+                console.warn('Translation key not found:', key);
+            }
+        });
+
+      // Aggiorna la lingua dell'attributo lang dell'elemento HTML
+      document.documentElement.setAttribute('lang', lang);
+
+        // Imposta la lingua nel localStorage per la persistenza
+      localStorage.setItem('preferredLanguage', lang);
+    }
+      // Funzione per ottenere la lingua preferita dal localStorage o impostare l'inglese come predefinita
+    function getPreferredLanguage() {
+      return localStorage.getItem('preferredLanguage') || 'en';
+    }
+
+
+    languageButtons.forEach(button => {
+        button.addEventListener('click', function() {
+             const lang = this.getAttribute('data-lang');
+            setLanguage(lang);
+          });
+    });
+
+      // Imposta la lingua preferita all'avvio della pagina
+    const initialLanguage = getPreferredLanguage();
+    setLanguage(initialLanguage);
+});
