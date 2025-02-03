@@ -1,7 +1,6 @@
- document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     const translations = {
-        // Your translations here (as provided in the original question)
-          "it": {
+        "it": {
             "title": "500 Crypto - La Fiat 500 d'epoca",
             "header_title": "500 Crypto",
             "header_subtitle": "La criptovaluta che celebra il mito della Fiat 500 d'epoca",
@@ -220,4 +219,4 @@
             "whitepaper_roadmap_2": "<strong>Phase 2 :</strong> Partenariats avec des événements de voitures d'époque.",
             "whitepaper_roadmap_3": "<strong>Phase 3 :</strong> Lancement d'une place de marché pour les NFT et les souvenirs.",
              "whitepaper_conclusion_title": "Conclusion",
-            "whitepaper_conclusion_text": "500 Crypt
+            "whitepaper_conclusion_text": "500 Crypto est un hommage à la Fiat 500, une voiture qui a marqué l'histoire de l'aut
